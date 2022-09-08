@@ -1,0 +1,17 @@
+.conteudo-2 {
+  max-width: 1400px;
+  display: grid;
+  padding: 80px 80px;
+  gap: 25px;
+}
+
+.conteudo-2 button {
+  margin-top: 25px;
+}
+
+.texto {
+  grid-column: 2;
+  padding: 10px 0;
+  font-size: 1.9rem;
+  color: #fff;
+}
