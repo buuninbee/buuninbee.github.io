@@ -24,11 +24,6 @@ p {
 }
 
 @media (max-width: 1100px) {
-  body {
-    background: linear-gradient(45deg, #020d12 60%, #073a45, #056d83 60%);
-    background-size: cover;
-  }
-
   .titulo {
     font-size: 4rem;
     margin-bottom: 0px;
@@ -38,6 +33,31 @@ p {
 @media (max-width: 890px) {
   .titulo {
     font-size: 3rem;
-    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 460px) {
+  .conteudo .titulo {
+    font-size: 2rem;
+  }
+
+  .conteudo {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 355px) {
+  .conteudo {
+    max-width: 250px;
+    gap: 15px;
+    padding: 10px 80px;
+  }
+
+  .conteudo p {
+    padding: 10px 0;
+  }
+
+  .conteudo button {
+    padding: 10px 10;
   }
 }

@@ -15,6 +15,9 @@ a {
 
 body {
   margin: 0px;
+}
+
+main {
   background: linear-gradient(45deg, #020d12 60%, #073a45, #056d83);
 }
 
@@ -31,7 +34,6 @@ body {
 h1 {
   font-family: centauri;
   text-transform: lowercase;
-  /* margin-top: 40px; */
 }
 
 p,
@@ -154,5 +156,29 @@ body {
 @media (max-width: 1100px) {
   p {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  p {
+    font-size: 1.3rem;
+  }
+
+  .titulo {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .titulo {
+    font-size: 1.8rem;
+  }
+
+  button {
+    padding: 10px 10px;
+  }
+
+  button a {
+    font-size: 0.9rem;
   }
 }

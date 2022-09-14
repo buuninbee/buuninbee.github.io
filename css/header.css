@@ -10,15 +10,11 @@ header {
   top: -1px;
   background: transparent;
   backdrop-filter: blur(15px);
-}
-
-body {
-  position: relative;
+  z-index: 2;
 }
 
 .topo {
   display: flex;
-  position: relative;
 }
 
 .topo button {
@@ -28,7 +24,6 @@ body {
 
 .topo li {
   border-radius: 5px;
-  position: relative;
 }
 
 .topo a {
@@ -49,5 +44,11 @@ body {
 
   .topo {
     padding: 0 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  header {
+    display: none;
   }
 }

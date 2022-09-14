@@ -107,3 +107,31 @@
     max-width: 6ch !important;
   }
 }
+
+@media (max-width: 750px) {
+  .conhecimento {
+    padding: 15px 10px;
+  }
+
+  .conteudo-3 .titulo {
+    font-size: 2rem;
+    grid-row: 1;
+    grid-column: 1;
+    word-break: break-all;
+    max-width: 6ch;
+  }
+}
+
+@media (max-width: 460px) {
+  .conteudo-3 .titulo {
+    font-size: 2rem;
+  }
+
+  .conteudo-3 {
+    margin-left: 50px;
+  }
+
+  .conteudo-3 p {
+    font-size: 1.4rem;
+  }
+}
