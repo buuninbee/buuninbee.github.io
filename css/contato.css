@@ -207,3 +207,9 @@
     margin-left: 30px;
   }
 }
+
+@media (max-width: 300px) {
+  .conteudo-4 p {
+    font-size: 1.3rem;
+  }
+}
