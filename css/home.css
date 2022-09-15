@@ -53,6 +53,11 @@ p {
     padding: 10px 80px;
   }
 
+  .conteudo .titulo {
+    word-break: break-all;
+    max-width: 9ch;
+  }
+
   .conteudo p {
     padding: 10px 0;
   }
