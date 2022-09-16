@@ -40,3 +40,9 @@
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 355px) {
+  .conteudo-2 button {
+    padding: 5px 5px;
+  }
+}
