@@ -24,7 +24,7 @@ main {
 
 @font-face {
   font-family: neuemachina;
-  src: url(/fontes/NeueMachina-Regular.otf);
+  src: url(/fontes/NeueMachina-Regular.otf) format(opentype);
 }
 
 @font-face {
