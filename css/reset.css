@@ -24,12 +24,12 @@ main {
 
 @font-face {
   font-family: neuemachina;
-  src: url(../fontes/NeueMachina-Regular.otf) format(opentype);
+  src: url(../NeueMachina-Regular.otf) format(opentype);
 }
 
 @font-face {
   font-family: centauri;
-  src: url(../fontes/Centauri-Regular.otf) format(opentype);
+  src: url(../Centauri-Regular.otf) format(opentype);
 }
 
 h1 {
