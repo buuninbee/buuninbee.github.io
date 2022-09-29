@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
 }
 
@@ -75,6 +75,10 @@
     font-size: 4rem;
     padding: 20px 0;
   }
+
+  .contato {
+    padding: 0;
+  }
 }
 
 @media (max-width: 900px) {
@@ -120,7 +124,7 @@
   }
 
   .conteudo-4 p {
-    max-width: 600px;
+    /* max-width: 600px; */
   }
 
   .conteudo-4 .titulo {
@@ -131,7 +135,7 @@
 
 @media (max-width: 750px) {
   .conteudo-4 .titulo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-left: 40px;
     padding: 15px 0;
   }
@@ -143,27 +147,41 @@
   .conteudo-4 p {
     margin-left: 40px;
   }
+
+  .contato {
+    padding: 0 0px;
+  }
 }
 
 @media (max-width: 650px) {
+  .conteudo-4 .titulo {
+    text-align: left;
+    font-size: 2.5rem;
+  }
+
   .conteudo-4 p {
     word-break: break-all;
-    max-width: 28ch;
+    max-width: 32ch;
+  }
+
+  .contato {
+    padding: 0 0px;
   }
 }
 
 @media (max-width: 570px) {
   .conteudo-4 .titulo {
-    text-align: center;
+    text-align: left;
+    font-size: 2.5rem;
   }
 
   .conteudo-4 p {
     font-size: 1.3rem;
-    padding: 0 80px;
+    max-width: 32ch;
   }
 
   .contato {
-    padding: 0 80px;
+    padding: 0 0px;
   }
 }
 
@@ -174,32 +192,41 @@
 
   .conteudo-4 p {
     font-size: 1.3rem;
-    text-align: center;
-    margin-left: 30px;
+    max-width: 32ch;
+    word-break: break-all;
+    justify-content: center;
+  }
+
+  .meios {
+    justify-content: center;
   }
 }
 
 @media (max-width: 400px) {
   .conteudo-4 p {
-    font-size: 0.9rem;
-    margin-left: 75px;
-    text-align: left;
+    font-size: 1.1rem;
+    justify-self: center;
+    max-width: 32ch;
   }
 
   .meios img {
-    max-width: 40px;
+    max-width: 30px;
   }
 
   .meios {
-    padding: 0 75px;
+    padding: 0px 20px;
   }
 
   .meios a {
     font-size: 1.2rem;
-    padding: 10px 0px;
+    align-self: center;
+    padding: 0 0;
   }
+}
 
-  .contato {
-    padding: 0 30px;
+@media (max-width: 356px) {
+  .conteudo-4 p {
+    margin-left: 60px;
+    max-width: 27ch;
   }
 }

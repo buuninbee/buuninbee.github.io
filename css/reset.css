@@ -22,26 +22,15 @@ main {
   background: linear-gradient(45deg, #020d12 60%, #073a45, #056d83);
 }
 
-@font-face {
-  font-family: neuemachina;
-  src: url(../NeueMachina-Regular.otf) format(opentype);
-}
-
-@font-face {
-  font-family: centauri;
-  src: url(../Centauri-Regular.otf) format(opentype);
-}
-
 h1 {
-  font-family: centauri;
-  text-transform: lowercase;
+  font-family: "Stalinist One", cursive;
 }
 
 p,
 h3,
 a {
-  font-family: neuemachina;
   color: #fff;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 button {

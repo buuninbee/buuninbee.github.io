@@ -3,7 +3,7 @@
   display: grid;
   padding: 5px 80px;
   gap: 25px;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 .conteudo p {
@@ -11,7 +11,7 @@
 }
 
 .titulo {
-  font-size: 4.9rem;
+  font-size: 4.5rem;
   color: #fff;
   margin-top: 0;
   margin-bottom: 40px;
