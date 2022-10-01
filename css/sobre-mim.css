@@ -32,10 +32,6 @@
     font-size: 2rem;
   }
 
-  .conteudo-2 {
-    margin-left: 50px;
-  }
-
   .conteudo-2 p {
     font-size: 1.4rem;
   }
@@ -48,5 +44,11 @@
 
   .conteudo-2 button a {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 355px) {
+  .conteudo-2 {
+    margin-left: 20px;
   }
 }

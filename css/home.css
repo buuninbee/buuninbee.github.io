@@ -40,10 +40,6 @@ p {
   .conteudo .titulo {
     font-size: 2rem;
   }
-
-  .conteudo {
-    margin-left: 50px;
-  }
 }
 
 @media (max-width: 355px) {
@@ -64,5 +60,9 @@ p {
 
   .conteudo button {
     padding: 10px 10px;
+  }
+
+  .conteudo {
+    margin-left: 20px;
   }
 }

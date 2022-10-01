@@ -127,11 +127,13 @@
     font-size: 2rem;
   }
 
-  .conteudo-3 {
-    margin-left: 50px;
-  }
-
   .conteudo-3 p {
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 355px) {
+  .conteudo-3 {
+    margin-left: 20px;
   }
 }
