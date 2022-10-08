@@ -6,6 +6,30 @@
   margin-top: 180px;
 }
 
+.conteudo-inicio {
+  display: flex;
+  gap: 0px 15px;
+  flex-wrap: wrap;
+}
+
+.curriculo {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px 15px;
+}
+
+.curriculo img {
+  z-index: 2;
+}
+
+.curriculo a {
+  grid-column: 1;
+  grid-row: 1;
+  align-items: left;
+  justify-items: left;
+  padding: 5px 10px;
+}
+
 .conteudo p {
   padding: 20px 0;
 }
@@ -33,6 +57,15 @@ p {
 @media (max-width: 890px) {
   .titulo {
     font-size: 3rem;
+  }
+
+  .curriculo a {
+    padding: 5px 1px;
+    font-size: 0.9rem;
+  }
+
+  .conteudo-inicio {
+    gap: 20px;
   }
 }
 
@@ -64,5 +97,14 @@ p {
 
   .conteudo {
     margin-left: 20px;
+  }
+
+  .curriculo a {
+    padding: 5px 1px;
+    font-size: 0.9rem;
+  }
+
+  .conteudo-inicio {
+    gap: 20px;
   }
 }
