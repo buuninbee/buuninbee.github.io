@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    256.76deg,
+    #056d83 0.02%,
+    #073a45 45.88%,
+    #020d12 100.72%
+  );
+  padding-bottom: 400px;
+}
+
+body a {
+  /* cursor: pointer; */
+  font: 400 1rem "Roboto Mono", monospace;
+  color: #ffff;
+}
+
+@media (max-width: 500px) {
+  body a {
+    font: 400 0.75rem "Roboto Mono", monospace;
+  }
+}

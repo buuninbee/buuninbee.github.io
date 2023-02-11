@@ -1,0 +1,17 @@
+.sobre-mim {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sobre-mim p {
+  margin-bottom: 24px;
+}
+
+.sobre-mim .botao-primario {
+  margin-bottom: 24px;
+}
+
+.sobre-mim a {
+  font: 400 1rem "Roboto Mono", monospace;
+  color: #ffff;
+}

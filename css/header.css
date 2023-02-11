@@ -1,0 +1,59 @@
+header {
+  position: fixed;
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  z-index: 2;
+  max-width: 100%;
+  padding-left: 105px;
+  padding-right: 105px;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  background-color: transparent;
+}
+
+.logo {
+  max-width: 10%;
+}
+
+.header-nav li {
+  padding: 6px 8px;
+  font: 400 0.75rem "Roboto Mono", monospace;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav a {
+  display: block;
+  color: #fff;
+}
+
+@media (max-width: 810px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    display: none;
+  }
+}

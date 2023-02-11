@@ -1,0 +1,179 @@
+.botao-primario {
+  padding: 8px 10px;
+  background-color: #000;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  /* overflow: hidden; */
+  transition: 500ms;
+}
+
+.botao-primario span {
+  color: #fff;
+  position: relative;
+  transition: 500ms;
+  transition-delay: 500ms;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.botao-primario:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  transition: 400ms;
+  transition-delay: 300ms;
+  /* background-color: #004b5a; */
+  box-shadow: 0 0 10px #004b5a, 0 0 30px #004b5a, 0 0 50px #004b5a;
+}
+
+.botao-primario div {
+  transition: 500ms;
+  position: absolute;
+  background-color: #004b5a;
+  box-shadow: 0 0 15px #004b5a, 0 0 30px #004b5a, 0 0 50px #004b5a;
+}
+
+.botao-primario .top {
+  width: 15px;
+  height: 2px;
+  top: 0;
+  left: 0;
+}
+
+.botao-primario .bottom {
+  width: 15px;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+}
+
+.botao-primario .left {
+  width: 2px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.botao-primario .right {
+  width: 2px;
+  height: 15px;
+  bottom: 0;
+  right: 0;
+}
+
+.botao-primario:hover {
+  color: #fff;
+}
+
+.botao-primario:hover span {
+  color: #fff;
+}
+
+.botao-primario:hover:before {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.botao-primario:hover .top,
+.botao-primario:hover .bottom {
+  width: 100%;
+}
+
+.botao-primario:hover .left,
+.botao-primario:hover .right {
+  height: 100%;
+}
+
+/* botao secundario */
+
+.btn {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  position: relative;
+  background-color: transparent;
+  transition: 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+  opacity: 0.6;
+  color: #fff;
+}
+
+.btn::after {
+  content: "";
+  border-bottom: 3px double #ffbb00;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  margin-top: -5px;
+  top: 0;
+  left: 5px;
+  visibility: hidden;
+  opacity: 1;
+  transition: 0.2s linear;
+}
+
+.btn .icon {
+  transform: translateX(0%);
+  transition: 0.2s linear;
+  animation: attention 1.2s linear infinite;
+}
+
+.btn:hover::after {
+  visibility: visible;
+  opacity: 0.7;
+  width: 90%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  letter-spacing: 2px;
+  opacity: 1;
+}
+
+.btn:hover > .icon {
+  transform: translateX(30%);
+  animation: none;
+}
+
+@keyframes attention {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(30%);
+  }
+}
+
+.azul {
+  color: #1c18e9;
+}
+
+.verde {
+  color: #16d650;
+}
+
+.container {
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}

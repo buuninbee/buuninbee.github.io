@@ -1,0 +1,147 @@
+.Habilidades {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: auto auto;
+  gap: 0 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.Habilidades h2 {
+  grid-column: 1;
+  word-break: break-all;
+}
+
+.Habilidades p {
+  max-width: max-content;
+  margin-bottom: 20px;
+}
+
+.habilidades-conteudo p {
+  padding-bottom: 32px;
+}
+
+.habilidades-cursos {
+  display: grid;
+  grid-template-columns: auto auto;
+  background: rgba(17, 17, 17, 0.3);
+  backdrop-filter: blur(55px);
+  border-radius: 4px;
+}
+
+.conhecimento {
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-template-rows: repeat(2, auto);
+  padding: 25px 60px;
+  gap: 16px;
+  align-items: center;
+  max-width: max-content;
+}
+
+.conhecimento h3 {
+  color: #fff;
+}
+
+.conhecimento .progresso {
+  grid-column: 1 / -1;
+}
+
+.progresso-html {
+  height: 2px;
+  width: 300px;
+  background-color: #69616170;
+  display: flex;
+}
+
+.progresso-html::before {
+  content: "";
+  width: 94%;
+  background-color: #ed9d00;
+}
+
+.progresso-css {
+  height: 2px;
+  width: 300px;
+  background-color: #69616170;
+  display: flex;
+}
+
+.progresso-css::before {
+  content: "";
+  width: 74%;
+  background-color: #0400c0;
+}
+
+.progresso-js {
+  height: 2px;
+  width: 300px;
+  background-color: #69616170;
+  display: flex;
+}
+
+.progresso-js::before {
+  content: "";
+  width: 30%;
+  background-color: #e7000d;
+}
+
+.progresso-bulma {
+  height: 2px;
+  width: 300px;
+  background-color: #69616170;
+  display: flex;
+}
+
+.progresso-bulma::before {
+  content: "";
+  width: 70%;
+  background-color: #03fc4e;
+}
+
+:root {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+@media (max-width: 1230px) {
+  .habilidades-cursos {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1100px) {
+  .Habilidades {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .progresso-html {
+    height: 2px;
+    width: 180px;
+    background-color: #69616170;
+    display: flex;
+  }
+
+  .progresso-css {
+    height: 2px;
+    width: 180px;
+    background-color: #69616170;
+    display: flex;
+  }
+
+  .progresso-js {
+    height: 2px;
+    width: 180px;
+    background-color: #69616170;
+    display: flex;
+  }
+
+  .progresso-bulma {
+    height: 2px;
+    width: 180px;
+    background-color: #69616170;
+    display: flex;
+  }
+}

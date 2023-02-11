@@ -1,0 +1,100 @@
+.font-1-g {
+  font: 400 4.5rem "Zen Dots", "cursiv";
+  color: #ffff;
+  padding-bottom: 32px;
+}
+
+.font-1-pp {
+  font: 400 0.75rem "roboto mono", "cursiv";
+  color: #ffff;
+}
+
+.font-1-m {
+  font: 400 2rem "Zen Dots", "cursiv";
+  color: #ffff;
+}
+
+.font-2-p {
+  font: 400 1rem "Roboto Mono", monospace;
+  color: #ffff;
+}
+
+.font-2-m {
+  font: 400 1.5rem "Roboto Mono", monospace;
+  color: #ffff;
+}
+
+.font-2-m-b {
+  font: 500 1.5rem "Roboto Mono", monospace;
+  color: #ffff;
+}
+
+.font-2-g {
+  font: 500 2rem "Roboto Mono", monospace;
+  color: #ffff;
+}
+
+.font-2-pp {
+  font: 400 0.75rem "Roboto Mono", monospace;
+  color: #ffff;
+}
+
+@media (max-width: 1230px) {
+  .font-1-g {
+    font: 400 3rem "Zen Dots", "cursiv";
+    color: #ffff;
+    padding-bottom: 32px;
+  }
+
+  .font-1-m {
+    font: 400 1rem "Zen Dots", "cursiv";
+    color: #ffff;
+  }
+
+  .font-1-pp {
+    font: 400 0.5rem "roboto mono", "cursiv";
+    color: #ffff;
+  }
+
+  .font-2-p {
+    font: 400 0.75rem "Roboto Mono", monospace;
+    color: #ffffff;
+  }
+
+  .font-2-m {
+    font: 400 1rem "Roboto Mono", monospace;
+    color: #ffff;
+  }
+
+  .font-2-m-b {
+    font: 500 1.5rem "Roboto Mono", monospace;
+    color: #ffff;
+  }
+
+  .font-2-g {
+    font: 500 2rem "Roboto Mono", monospace;
+    color: #ffff;
+  }
+
+  .font-2-pp {
+    font: 400 0.75rem "Roboto Mono", monospace;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-1-g {
+    font: 400 2rem "Zen Dots", "cursiv";
+    color: #ffff;
+  }
+
+  .font-2-g {
+    font: 500 1rem "Roboto Mono", monospace;
+    color: #ffff;
+  }
+
+  .font-2-m {
+    font: 400 0.75rem "Roboto Mono", monospace;
+    color: #ffff;
+  }
+}

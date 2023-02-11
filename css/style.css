@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./reset.css";
+@import "./sobre-mim.css";
+@import "./habilidade.css";
+@import "./contato.css";
+
+/* home */
+@import "./home/home.css";
+@import "./home/sobre-mim.css";
+@import "./home/habilidade.css";
+
+/* utilidades */
+@import "../css/utilidades/global.css";
+@import "../css/utilidades/tipografia.css";
+@import "../css/utilidades/utilidade.css";
+
+@import "../css/meus-trabalho.css";
