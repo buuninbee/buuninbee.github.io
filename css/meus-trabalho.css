@@ -69,6 +69,13 @@
   border-radius: 5px 5px 0 0;
 }
 
+@media (max-width: 600px) {
+  .Trabalhos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
 @media (max-width: 820px) {
   .projeto-lista img {
     max-width: 280px;

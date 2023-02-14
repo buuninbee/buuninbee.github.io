@@ -82,7 +82,7 @@
 
 .progresso-js::before {
   content: "";
-  width: 30%;
+  width: 20%;
   background-color: #e7000d;
 }
 
