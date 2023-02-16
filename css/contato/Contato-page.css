@@ -1,0 +1,50 @@
+#contato-page {
+  background: linear-gradient(
+    258.24deg,
+    #170367 0%,
+    rgba(17, 2, 74, 0.488851) 49.52%,
+    #06011c 92.42%
+  );
+}
+
+.form-contato form {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+}
+
+form div:nth-child(4) {
+  grid-column: span 2;
+}
+
+form div:nth-child(3) {
+  grid-column: span 2;
+}
+
+.form-contato input[type="text"],
+.form-contato input[type="email"],
+.form-contato textarea {
+  font: 400 1rem "Roboto Mono", monospace;
+  color: #fff;
+  background: #151313;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-contato input[type="text"]:focus,
+.form-contato input[type="email"]:focus,
+.form-contato textarea:focus {
+  outline: none;
+  background: #0a0909;
+}
+
+.form-contato button {
+  max-width: max-content;
+  grid-row: 4;
+  grid-column: 2;
+  justify-self: right;
+}
