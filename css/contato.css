@@ -73,4 +73,8 @@
   .contato-meios a {
     font-size: 10px;
   }
+
+  .contato-conteudo p {
+    text-align: center;
+  }
 }
