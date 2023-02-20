@@ -8,7 +8,7 @@
 @import "./home/home.css";
 @import "./home/sobre-mim.css";
 @import "./home/habilidade.css";
-@import "../css/meus-trabalho.css";
+@import "./home/meus-trabalho.css";
 
 /* utilidades */
 @import "../css/utilidades/global.css";
@@ -18,3 +18,7 @@
 /* contato-page */
 
 @import "../css/contato/Contato-page.css";
+
+/* trabalhos */
+
+@import "../css/trabalhos/trabalhos.css";

@@ -1,0 +1,38 @@
+#trabalhos-page {
+  background: linear-gradient(
+    265.63deg,
+    #013a0c 0%,
+    rgba(0, 31, 6, 0.488851) 45.09%,
+    #000000 99%
+  );
+  padding-top: 200px;
+}
+
+.trabalho-page {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-auto-flow: auto auto auto;
+}
+
+.trabalho-tudo {
+  grid-row: 2;
+}
+
+.img-card img {
+  grid-column: 1 / -1;
+}
+
+.trabalho-page h1 {
+  grid-row: 1 / -1;
+}
+
+.trabalho-conteudo h2,
+p,
+button {
+  grid-column: 2;
+}
+
+.img-card img {
+  grid-column: 1 / -1;
+  width: 40%;
+}
