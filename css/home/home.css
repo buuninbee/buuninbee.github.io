@@ -8,8 +8,8 @@
 }
 
 .botao-home {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
   max-width: max-content;
   gap: 16px;
 }

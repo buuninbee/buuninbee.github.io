@@ -3,14 +3,12 @@
   place-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-
   gap: 40px;
   background: #000;
 }
 
-.contato-conteudo {
-  display: grid;
-  gap: 40px;
+.contato-conteudo p {
+  padding-bottom: 32px;
 }
 
 .contato-meios,
