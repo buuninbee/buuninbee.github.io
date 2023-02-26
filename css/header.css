@@ -29,7 +29,6 @@ body {
 }
 
 .header-nav li {
-  padding: 6px 8px;
   font: 400 0.75rem "Roboto Mono", monospace;
 }
 
@@ -44,6 +43,7 @@ body {
 .header-nav a {
   display: block;
   color: #fff;
+  padding: 14px 18px;
 }
 
 @media (max-width: 810px) {

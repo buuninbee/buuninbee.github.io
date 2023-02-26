@@ -1,10 +1,23 @@
 #contato-page {
   background: linear-gradient(
-    258.24deg,
-    #170367 0%,
-    rgba(17, 2, 74, 0.488851) 49.52%,
-    #06011c 92.42%
+    256.76deg,
+    #056d83 0.02%,
+    #073a45 45.88%,
+    #020d12 100.72%
   );
+}
+
+#contato h1 {
+  padding-top: 200px;
+  padding-bottom: 16px;
+}
+
+#contato p {
+  padding-bottom: 32px;
+}
+
+#contato button {
+  padding: 14px 18px;
 }
 
 .form-contato form {
@@ -47,4 +60,11 @@ form div:nth-child(3) {
   grid-row: 4;
   grid-column: 2;
   justify-self: right;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+  #contato h1 {
+    padding-top: 80px;
+  }
 }

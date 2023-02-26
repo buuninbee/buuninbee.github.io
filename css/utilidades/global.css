@@ -19,7 +19,6 @@ body a {
   color: #ffff;
 }
 
-
 @media (max-width: 500px) {
   body a {
     font: 400 0.75rem "Roboto Mono", monospace;

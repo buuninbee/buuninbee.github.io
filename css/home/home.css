@@ -14,6 +14,10 @@
   gap: 16px;
 }
 
+.botao-home .botao-primario a {
+  padding: 14px 18px;
+}
+
 .curriculo {
   display: grid;
   grid-template-columns: auto auto;
