@@ -22,48 +22,82 @@
 <body>
     <header class="header-bg ">
         <div class="header">
-            <img class="logo" src="/img/octopus.svg" alt="octopus">
-            <nav>
-                <ul class="header-nav">
-                    <button class="botao-primario">
-                        <li><a href="./index.html">Home</a></li>
-                        <div class="top"></div>
-                        <div class="left"></div>
-                        <div class="bottom"></div>
-                        <div class="right"></div>
-                    </button>
-                    <button class="botao-primario">
-                        <li><a href="#sobre-mim">Sobre mim</a></li>
-                        <div class="top"></div>
-                        <div class="left"></div>
-                        <div class="bottom"></div>
-                        <div class="right"></div>
-                    </button>
-                    <button class="botao-primario">
-                        <li>
-                            <a href="#habildades">Habildades</a>
-                        </li>
-                        <div class="top"></div>
-                        <div class="left"></div>
-                        <div class="bottom"></div>
-                        <div class="right"></div>
-                    </button>
-                    <button class="botao-primario">
-                        <li><a href="./trabalhos.html">Trabalhos</a></li>
-                        <div class="top"></div>
-                        <div class="left"></div>
-                        <div class="bottom"></div>
-                        <div class="right"></div>
-                    </button>
-                    <button class="botao-primario">
-                        <li><a href="./contato.html">Contato</a></li>
-                        <div class="top"></div>
-                        <div class="left"></div>
-                        <div class="bottom"></div>
-                        <div class="right"></div>
-                    </button>
-                </ul>
+            <nav class="nav-bar">
+                <a href="./index.html">
+                    <img class="logo" src="/img/octupos-logo.svg" alt="octopus">
+                </a>
+
+                <div class="nav-list">
+                    <ul>
+                        <button class="botao-primario">
+                            <li><a href="./index.html">Home</a></li>
+                            <div class="top"></div>
+                            <div class="left"></div>
+                            <div class="bottom"></div>
+                            <div class="right"></div>
+                        </button>
+                        <button class="botao-primario">
+                            <li><a href="./index.html">Sobre mim</a></li>
+                            <div class="top"></div>
+                            <div class="left"></div>
+                            <div class="bottom"></div>
+                            <div class="right"></div>
+                        </button>
+                        <button class="botao-primario">
+                            <li>
+                                <a href="index.html">Habildades</a>
+                            </li>
+                            <div class="top"></div>
+                            <div class="left"></div>
+                            <div class="bottom"></div>
+                            <div class="right"></div>
+                        </button>
+                        <button class="botao-primario">
+                            <li><a href="./trabalhos.html">Trabalhos</a></li>
+                            <div class="top"></div>
+                            <div class="left"></div>
+                            <div class="bottom"></div>
+                            <div class="right"></div>
+                        </button>
+                        <button class="botao-primario">
+                            <li><a href="./contato.html">Contato</a></li>
+                            <div class="top"></div>
+                            <div class="left"></div>
+                            <div class="bottom"></div>
+                            <div class="right"></div>
+                        </button>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menushow()"><img class="icon" src="./img/menu-black.svg" alt=""></button>
+                </div>
             </nav>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#sobre-mim">Sobre</a>
+                    </li>
+
+                    <li>
+                        <a href="#habildades">Habilidade</a>
+                    </li>
+
+                    <li>
+                        <a href="./trabalhos.html">Trabalhos</a>
+                    </li>
+
+                    <li>
+                        <a href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </header>
 
@@ -95,9 +129,9 @@
 
             <div class="trabalho-bg">
                 <div class="trabalho-tudo">
-                    <img src="./img/Captura  bikcraft.png" alt="">
+                    <img src="./img/emBreve.png" alt="">
                     <div class="trabalho-conteudo">
-                        <h2 class="font-1-m">XXXXXXX</h2>
+                        <h2 class="font-1-m">Em Breve...</h2>
                         <p class="font-2-p">
                             ????????????????????????????????
                         </p>
@@ -120,9 +154,9 @@
             <div class="trabalho-tudo">
                 <img src="./img/emBreve.png" alt="">
                 <div class="trabalho-conteudo">
-                    <h2 class="font-1-m">XXXXXXX</h2>
+                    <h2 class="font-1-m">Em Breve...</h2>
                     <p class="font-2-p">
-                        ????????????????????????????????????????????????
+                        ????????????????????????????????
                     </p>
                     <a href="./">
                         <button class="btn ">
@@ -138,27 +172,6 @@
                     </a>
                 </div>
             </div>
-
-            <!-- <div class="trabalho-bg">
-                <div class="trabalho-tudo">
-                        <img src="./img/emBreve.png" alt="">
-                    <div class="trabalho-conteudo">
-                        <h2 class="font-1-m">XXXXXXX</h2>
-                        <p class="font-2-p">?????????????????????</p>
-                        <button class="btn ">
-                            Ver mais
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15px"
-                                width="15px" class="icon">
-                                <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10"
-                                    stroke-width="1.5" stroke="#292D32"
-                                    d="M8.91016 19.9201L15.4302 13.4001C16.2002 12.6301 16.2002 11.3701 15.4302 10.6001L8.91016 4.08008">
-                                </path>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div> -->
-
         </section>
 
         <section class="contato" id="contato">
@@ -187,6 +200,9 @@
             <a class="font-2-g email" href="mailto:buunin.bee@gmail.com">Buunin.bee@gmail.com</a>
         </section>
     </main>
+
+    <script src="./js/index.js"></script>
+
 </body>
 
 </html>

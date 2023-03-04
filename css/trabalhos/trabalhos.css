@@ -26,6 +26,7 @@
   gap: 40px;
   padding-bottom: 60px;
   padding-top: 60px;
+  position: relative;
 }
 
 .trabalho-conteudo {
@@ -76,6 +77,7 @@
   }
 
   .trabalho-page h1 {
+    padding-top: 120px;
     padding-bottom: 10px;
   }
 
@@ -94,5 +96,9 @@
     grid-row: 3;
     grid-column: 1;
     place-self: end;
+  }
+
+  .trabalho-page h1 {
+    padding-top: 80px;
   }
 }

@@ -3,9 +3,7 @@ header {
   background-color: transparent;
   backdrop-filter: blur(15px);
   z-index: 2;
-  max-width: 100%;
-  padding-left: 105px;
-  padding-right: 105px;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -13,26 +11,27 @@ body {
   position: relative;
 }
 
-.header {
+.nav-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 1px;
-  padding-bottom: 15px;
   background-color: transparent;
+  padding: 12px 16px;
 }
 
 .logo {
-  max-width: 10%;
+  width: 110px;
+  display: flex;
+  align-items: center;
 }
 
 .header-nav li {
   font: 400 0.75rem "Roboto Mono", monospace;
 }
 
-.header-nav {
+.nav-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -40,20 +39,78 @@ body {
   align-items: center;
 }
 
-.header-nav a {
+.nav-list a {
   display: block;
   color: #fff;
   padding: 14px 18px;
 }
 
-@media (max-width: 810px) {
-  .logo {
-    display: none;
-  }
+.nav-list button {
+  margin-left: 12px;
 }
 
-@media (max-width: 900px) {
-  .header {
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+
+  header {
+    background: rgba(17, 15, 15, 0.3);
+    backdrop-filter: blur(15px);
+  }
+
+  .nav-list li {
     display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+
+  .mobile-menu-icon img {
+    width: 70px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mobile-menu li {
+    background: rgba(17, 15, 15, 0.3);
+    padding: 8px 12px;
+    align-items: center;
+  }
+
+  .mobile-menu .nav-list li {
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .nav-list button {
+    display: none;
+  }
+
+  .open {
+    display: block;
   }
 }
