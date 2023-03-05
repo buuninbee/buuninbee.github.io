@@ -59,7 +59,7 @@ body {
 
 @media (max-width: 800px) {
   .nav-bar {
-    padding: 1.5rem 4rem;
+    padding: 10px 20px;
   }
 
   header {
@@ -96,9 +96,14 @@ body {
   }
 
   .mobile-menu li {
-    background: rgba(17, 15, 15, 0.3);
+    background: rgba(31, 29, 29, 0.3);
+    backdrop-filter: blur(8px);
     padding: 8px 12px;
     align-items: center;
+  }
+
+  .mobile-menu li + li {
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
   }
 
   .mobile-menu .nav-list li {

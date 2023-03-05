@@ -14,7 +14,6 @@ body {
 }
 
 body a {
-  /* cursor: pointer; */
   font: 400 1rem "Roboto Mono", monospace;
   color: #ffff;
 }

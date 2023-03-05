@@ -65,6 +65,6 @@ form div:nth-child(3) {
 
 @media (max-width: 800px) {
   #contato h1 {
-    padding-top: 160px;
+    padding-top: 120px;
   }
 }
